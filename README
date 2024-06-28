@@ -1,0 +1,21 @@
+GOHTTPSERVE
+===========
+
+A super simple HTTP server written in Go. Similar to running python3 -m http.server.
+
+Build
+=====
+To build GOHTTPSERVE, make sure you have Go installed on your system. Then run the following command:
+go build serve.go
+
+The compiled binary will be named `serve`.
+
+Run
+===
+Run it like you would any other binary:
+./serve <directory>
+
+For example:
+
++ Your current working directory: ./serve .
++ Your home directory: ./serve ~
